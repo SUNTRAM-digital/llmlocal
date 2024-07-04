@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB GPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <ul>
+        </ul>
+    </main>
+    <form>
+        <input name="message" placeholder="Escribe tu mensaje"/>
+        <button disabled>Enviar</button>
+    </form>
+
+    <small></small>
+
+    <template id="message-template">
+        <li class="message">
+            <span></span>
+            <p></p>
+        </li>
+    </template>
+    <div class="loader"></div>
+
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
